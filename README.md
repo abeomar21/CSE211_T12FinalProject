@@ -4,13 +4,6 @@ Mbed OS 6 project for an STM32 Nucleo board (e.g. F401RE) that
 uses an HC-SR04 ultrasonic sensor to follow an object moving in
 a straight line and stop safely when the object stops.
 
-## How to build (Mbed Studio)
-1. *File → New Program → Pristine Mbed OS program* (name it
-   whatever you like) so Mbed Studio fetches `mbed-os`.
-2. Drop these four files into the project root:
-   `main.cpp`, `ultrasonic.h`, `ultrasonic.cpp`,
-   `motor.h`, `motor.cpp`.
-3. Select your target board and `Build & Run`.
 
 ## Wiring (NUCLEO-F401RE MB1136 rev C - labels as printed on the right header)
 
